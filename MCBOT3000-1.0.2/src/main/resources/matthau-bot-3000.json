@@ -1,0 +1,21 @@
+{
+  "botToken": "",
+  "channelId": "",
+  "joinMessages": [
+    "%player% joined the server.",
+    "%player% has arrived.",
+    "Welcome, %player%!",
+    "%player% connected.",
+    "%player% is now online."
+  ],
+  "leaveMessages": [
+    "%player% left the server.",
+    "%player% has left the game.",
+    "Goodbye, %player%!",
+    "%player% disconnected.",
+    "%player% is now offline."
+  ],
+  "randomJoinMessages": true,
+  "randomLeaveMessages": true,
+  "avoidImmediateRepeat": true
+}
