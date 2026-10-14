@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "matthau_bot_3000",
+  "version": "${version}",
+  "name": "MatthauBot 3000",
+  "description": "A configurable server-side Minecraft and Discord chat bridge with player login and logout notifications.",
+  "authors": [
+    "MatthauBot 3000 Contributors"
+  ],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.matthaucraft.mbot.MatthauBot3000"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": ">=0.154.2"
+  }
+}
